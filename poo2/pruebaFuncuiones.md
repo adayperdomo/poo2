@@ -56,3 +56,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+### Ejercicio 5
+def myScrip(*src:str)->str:
+Una función que tiene como entrada un número indeterminado de caracteres y como salida una cadena de caracteres. Probablemente transforma las entradas en la salida.
