@@ -68,3 +68,8 @@ class Date:
 
     def __eq__(self, other) -> bool:
         ...
+
+
+if __name__ == "__main__":
+    pass
+    #Aquí va un código de prueba
