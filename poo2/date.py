@@ -26,7 +26,11 @@ class Date:
 
     @staticmethod
     def days_in_month(month: int, year: int) -> int:
-        ...
+        days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+        if self.is_leap_year(year) and month == 2:
+            return 29
+        else:
+            return days[month-1]
 
     def get_delta_days(self) -> int:
         '''Número de días transcurridos desde el 1-1-1900 hasta la fecha'''
@@ -69,7 +73,3 @@ class Date:
     def __eq__(self, other) -> bool:
         ...
 
-
-if __name__ == "__main__":
-    pass
-    #Aquí va un código de prueba
