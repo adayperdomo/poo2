@@ -1,4 +1,4 @@
 from bicicleta import Bicicleta
 
-class Bicicleta(Bicicleta):
+class Moto(Bicicleta):
     pass
