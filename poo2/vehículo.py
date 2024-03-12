@@ -5,3 +5,6 @@ class Vehiculo:
 
     def informacion(self) -> None:
         print(self.ruedas, self.color)
+
+if __name__ == "__main__":
+    seat = Vehiculo(4, "blanco")
